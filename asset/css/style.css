@@ -1,0 +1,250 @@
+/*Basic CSS*/
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+    .alignleft{
+      float: left;
+      margin-right: 15px;
+    }
+    .alignright{
+      float: right;
+      margin-left: 15px;
+    }
+    .aligncenter{
+      display: block;
+      margin:0 auto 15px;
+    }
+    a:focus{
+      outline: 0 solid
+    }
+    /*input:focus, button:focus {
+    outline: 0 solid
+    }*/
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+    h1,h2,h3,h4,h5,h6{
+      margin: 0 0 15px;
+      font-weight: 700;
+    }
+    body{
+      font-family: 'Montserrat', sans-serif;
+    }
+    a:hover{
+      text-decoration:none;
+    }
+ /* end of Basic CSS*/ 
+ #nav-area{
+   top:0;
+   position: sticky;
+   z-index: 10;
+ }
+
+ .navbar{
+   background-image: linear-gradient(to right, #a517ba, #5f1782);
+   padding: 0 !important;
+ }
+ .navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  text-decoration: ;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* -------------banner area---------------- */
+#banner-area{
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.banner-left-info h2 {
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 207px;
+  letter-spacing: 9px;
+  font-size: 31px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.banner-left-info p {
+  color: #fff;
+  font-size: 14px; 
+  text-align: justify;
+  padding-top: 20px;
+  margin-bottom: 26px;
+}
+ 
+.banner-left-info a img {
+  height: 37px; 
+  margin-right: 10px; 
+}
+.banner-left-info a {
+  color: #fff;
+  font-size: 14px;
+}
+.banner-right-info img {
+  margin-top: 70px;
+  margin-left: 84px;
+}
+.bottom-img{
+  width: 100%;
+}
+
+/* ----------------service area--------------- */
+
+ .title-all  {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.title-all::before{
+  content: '';
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+.title-all::after{
+  content: '';
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(8px);
+}
+#service-area { 
+  padding: 50px 50px;
+}
+.service-info img {
+  width: 100px;
+  text-align: center;
+}
+.service-info h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.btn.btn-primary {
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: ;
+}
+
+
+/* ------------------about us area--------------- */
+
+#about-us {
+  padding: 50px 50px;
+  background: #f8f9fa;
+}
+.about-left-info h2 {
+  padding-top: 125px;
+  text-transform: uppercase;
+}
+.about-right-info img {
+  padding-top: 40px;
+}
+
+/* --------------------------Testi area----------------------- */
+
+#testi-area {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.client-info img {
+  height: 70px;
+  border-radius: 50px;
+}
+.client-info h4 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.client-info p {
+  display: block;
+}
+.client-info p {
+  font-size: 12px;
+  padding-top: 0;
+  margin-top: -17px;
+}
+.left-testi-info {
+  border-left: 5px solid blueviolet;
+  padding-left: 20px;
+}
+
+/* ----------------------------SOCIAL AREA----------- */
+
+#social-area {
+  background: #f8f9fa;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.social-info img {
+  height: 90px;
+  transition: .3sec all;
+  transition: all .3s ease-in-out;
+}
+.social-info img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+
+}
+/* ----------------------------FOOTER AREA------------------------------ */
+#footer-area{
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  padding: 50px 0px;
+  color: #fff;
+}
+ 
+.footer-info img {
+  height: 43px;
+  margin-bottom: 20px;
+}
+.footer-info p {
+  font-size: 16px;
+  text-align: justify;
+}
+.footer-info h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 33px;
+}
+.footer-contact-item a {
+  color: #fff;
+  padding-right: ;
+  padding-left: 5px;
+}
+.footer-contact-item span i {
+  margin-bottom: 15px;
+}
+.subscribe {
+  margin-top: 19px !important;
+}
+
+.line.text-center {
+  border-top: 1px solid #fff;
+  margin-top: 21px;
+  padding-top: 6px;
+  padding-bottom: 0px !important;
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer-info input {
+  height: 40px;
+  width: 321px;
+  padding: 10px;
+}
